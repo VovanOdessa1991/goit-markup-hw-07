@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header overlay">
+      <div class="container flex">
+        <nav class="header-nav flex">
+          <a class="logo" href="index.html"><span class="logo-first-color">Web</span>Studio</a>
+          <ul class="nav-list flex">
+            <li class="nav-item">
+              <a class="nav-item-link transition current " href="index.html">WebStudio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item-link transition" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item "><a class="nav-item-link transition" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="header-list flex">
+          <li class="header-item">
+            <a class="header-item-link transition" href="mailto:info@devstudio.com">
+              <span class="header-item-mail">
+                <svg class="header-item-mail-icon" width="16" height="12">
+                  <use href="./images/symbol-defs.svg#icon-email"></use>
+                </svg>
+              </span>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header-item">
+            <a class="header-item-link transition" href="tel:+380961111111">
+              <span class="header-item-mail">
+                <svg class="header-item-mail-icon" width="16" height="12">
+                  <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+              </span>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero overlay">
+        <div class="container">
+          <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+          <button class="bottom hero-button" type="button" data-modal-open>Заказать услугу</button>
+        </div>
+      </section>
+
+      <section class="doing overlay">
+        <div class="container">
+          <ul class="doing-list flex">
+            <li class="doing-item">
+              <div class="doing-icon-container flex">
+                <svg class="doing-icon" width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="doing-item-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+              <p class="doing-item-text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li class="doing-item">
+              <div class="doing-icon-container flex">
+                <svg class="doing-icon" width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-watch"></use>
+                </svg>
+              </div>
+              <h3 class="doing-item-title">ПУНКТУАЛЬНОСТЬ</h3>
+              <p class="doing-item-text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="doing-item">
+              <div class="doing-icon-container flex">
+                <svg class="doing-icon" width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-pcdiagram"></use>
+                </svg>
+              </div>
+              <h3 class="doing-item-title">ПЛАНИРОВАНИЕ</h3>
+              <p class="doing-item-text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="doing-item">
+              <div class="doing-icon-container flex">
+                <svg class="doing-icon" width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="doing-item-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+              <p class="doing-item-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="examples">
+        <div class="container">
+          <h2 class="examples-title">Чем мы занимаемся</h2>
+          <ul class="examples-images flex">
+            <li class="examples-images-item">
+              <div class="example-overlay-container">
+                <img class="examples-image" src="./images/img1.jpg" alt="Руки програмирут " />
+                <div class="example-overlay-conteiner-text flex">
+                  <p class="example-overlay-text">Десктопные приложения</p> 
+                </div>
+              </div>
+              
+            </li>
+            <li class="examples-images-item">
+              <div class="example-overlay-container">
+                <img class="examples-image" src="./images/img2.jpg" alt="верстка мобильного дизайна"/>
+                <div class="example-overlay-conteiner-text  flex">
+                  <p class="example-overlay-text">Мобильные приложения</p> 
+                </div>
+              </div>
+             
+            </li>
+            <li class="examples-images-item">
+              <div class="example-overlay-container">
+                <img class="examples-image" src="./images/img3.jpg" alt="подбор цвета" />
+                <div class="example-overlay-conteiner-text flex">
+                  <p class="example-overlay-text">Дизайнерские решения</p> 
+                </div>
+              </div>
+              
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="we overlay">
+        <div class="container">
+          <h2 class="we-title">Наша команда</h2>
+          <ul class="we-list flex">
+            <li class="we-item">
+              <img class="we-image" src="./images/img_people1.jpg" alt="Фото Игорь Демьяненко" />
+              <div class="we-item-div">
+                <h3 class="we-item-title">Игорь Демьяненко</h3>
+                <p class="we-item-text" lang="en">Product Designer</p>
+                <ul class="we-item-list flex">
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="we-item">
+              <img class="we-image" src="./images/img_people2.jpg" alt="Фото Ольга Репина" />
+              <div class="we-item-div">
+                <h3 class="we-item-title">Ольга Репина</h3>
+                <p class="we-item-text" lang="en">Frontend Developer</p>
+                <ul class="we-item-list flex">
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="we-item">
+              <img class="we-image" src="./images/img_people3.jpg" alt="Фото Николай Тарасов" />
+              <div class="we-item-div">
+                <h3 class="we-item-title">Николай Тарасов</h3>
+                <p class="we-item-text" lang="en">Marketing</p>
+                <ul class="we-item-list flex">
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="we-item">
+              <img class="we-image" src="./images/img_people4.jpg" alt="Фото Михаил Ермаков" />
+              <div class="we-item-div">
+                <h3 class="we-item-title">Михаил Ермаков</h3>
+                <p class="we-item-text" lang="en">UI Designer</p>
+                <ul class="we-item-list flex">
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="clients overlay">
+        <div class="container">
+          <h2 class="clients-title">Постоянные клиенты</h2>
+          <ul class="clients-list flex">
+            <li class="clients-item">
+              <a href="#" class="client-item-link flex transition">
+                <svg class="clients-icon" width="106" height="60">
+                  <use href="./images/symbol-defs.svg#icon-client1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" class="client-item-link flex transition">
+                <svg class="clients-icon" width="106" height="60">
+                  <use href="./images/symbol-defs.svg#icon-client2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" class="client-item-link flex  transition">
+                <svg class="clients-icon" width="106" height="60">
+                  <use href="./images/symbol-defs.svg#icon-client3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" class="client-item-link flex transition">
+                <svg class="clients-icon" width="106" height="60">
+                  <use href="./images/symbol-defs.svg#icon-client4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" class="client-item-link flex transition">
+                <svg class="clients-icon" width="106" height="60">
+                  <use href="./images/symbol-defs.svg#icon-client5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" class="client-item-link flex transition">
+                <svg class="clients-icon" width="106" height="60">
+                  <use href="./images/symbol-defs.svg#icon-client6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer overlay">
+      <div class="container flex footer-flex">
+        <div class="test">
+          <a class="footer-logo" href="index.html"
+            ><span class="logo-first-color">Web</span>Studio</a
+          >
+          <address>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a class="footer-item-addres-link transition" href="#"> г. Киев, пр-т Леси Украинки, 26</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-item-link transition" href="mailto:info@devstudio.com">info@devstudio.com </a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-item-link transition" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="connect">
+          <h2 class="connect-title">присоединяйтесь</h2>
+          <ul class="we-item-list flex">
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link footer-icon flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link footer-icon flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link footer-icon flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link footer-icon flex transition">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="backdrop  is-hidden" data-modal>
+      <div class="modal">        
+        <button class="modal-close-button flex" type="button" data-modal-close>
+          <svg  width="18" height="18">
+                        <use href="./images/symbol-defs.svg#icon-close-black"></use>
+                      </svg>
+                    </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
