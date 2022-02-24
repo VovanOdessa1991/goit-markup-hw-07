@@ -433,9 +433,35 @@
             </li>
           </ul>
         </div>
+        <div class="footer__form-conteiner">
+          <h2>Подпишитесь на рассылку</h2>
+          <div  class="footer__form">
+            <label for="user-test" class="from__test-label">
+              
+              <spam class="footer__spam">
+                <input
+                  name="user-test"
+                  id="user-test"
+                  type="text"
+                  placeholder="E-mail"
+                  class="form__input-test"
+                />
+                <svg width="18" height="18" class="modal__icon-test">
+                  <use href="./images/symbol-defs.svg#icon-modal-email"></use>
+                </svg>
+              </spam>
+            </label>
+             
+              <button class="footer__submit" type="submit">Подписаться<svg class=footer__icon-test">
+                  <use href="./images/symbol-defs.svg#icon-send"></use>
+                </svg>
+                </button>
+
+             
+        </div>
       </div>
     </footer>
-
+    <!-- !Modal     -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-button flex" type="button" data-modal-close>
