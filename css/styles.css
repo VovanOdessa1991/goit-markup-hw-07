@@ -248,7 +248,7 @@ img {
 .footer-icon > svg {
   fill: var(--svg-hover-color);
 }
-.footer__form-conteiner {
+.footer__form-container {
   width: 570px;
   height: 86px;
 }
