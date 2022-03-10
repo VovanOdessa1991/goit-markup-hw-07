@@ -12,7 +12,7 @@
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.hero-title {
+.hero__title {
   color: var(--hero-title-color);
 
   font-size: 44px;
@@ -25,7 +25,7 @@
   margin-left: auto;
   margin-bottom: var(--margin-bottom);
 }
-.hero-button {
+.hero__button {
   color: var(--hero-button-hover-color);
   background-color: var(--hero-button-bacground-hover-color);
   font-size: 16px;
