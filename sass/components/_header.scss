@@ -3,9 +3,9 @@
   padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
-.header-nav {
+.nav {
 }
-.logo {
+.nav__logo {
   text-decoration: none;
 
   font-family: Raleway;
@@ -15,63 +15,76 @@
   letter-spacing: 0.03em;
 
   color: var(--logo-second-color);
+  &-first-color {
+    color: var(--logo-first-color);
+  }
 }
-.logo-first-color {
-  color: var(--logo-first-color);
-}
-.nav-list {
+
+.nav__list {
   list-style-type: none;
   margin-left: 92px;
 }
-.nav-item,
-.nav-item-link {
+.nav__item {
   position: relative;
   color: var(--header-first-text-color);
-  text-decoration: none;
+
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  & + & {
+    margin-left: var(--nav-margin-left);
+  }
 }
-.nav-item + .nav-item {
-  margin-left: var(--nav-margin-left);
+
+.nav__link {
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: var(--header-text-hover-color);
+  }
 }
 
 .current {
   color: var(--header-text-hover-color);
-}
-.current::before {
-  content: '';
-  width: 100%;
-  height: 4px;
-  background-color: var(--button-background-hover-color);
-  position: absolute;
-  bottom: -28px;
-  border-radius: 2px;
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: var(--button-background-hover-color);
+    position: absolute;
+    bottom: -28px;
+    border-radius: 2px;
+  }
 }
 
-.nav-item-link:hover,
-.nav-item-link:focus,
-.header-item-link:focus,
-.header-item-link:hover {
-  color: var(--header-text-hover-color);
-}
-.header-list {
+// .nav__link:hover,
+// .nav__link:focus,
+// .header-item-link:focus,
+// .header-item-link:hover {
+//   color: var(--header-text-hover-color);
+// }
+.header__list {
   list-style-type: none;
   margin-left: auto;
 }
-.header-item + .header-item {
+.header__item + .header__item {
   margin-left: var(--nav-margin-left);
 }
-.header-item-link {
+.header__link {
   color: var(--header-second-text-color);
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+  &:focus,
+  &:hover {
+    color: var(--header-text-hover-color);
+  }
 }
-.header-item-mail {
+.header__mail {
   margin-right: 10px;
 }
-.header-item-mail-icon {
+.header__mail-icon {
   fill: currentColor;
 }
