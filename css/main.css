@@ -574,7 +574,7 @@ img {
   padding: 94px 0;
 }
 
-.clients-title {
+.clients__title {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -585,17 +585,17 @@ img {
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   align-items: center;
   justify-content: space-between;
 }
 
-.clients-item {
+.clients__item {
   width: 170px;
   height: 92px;
 }
 
-.client-item-link {
+.client__item-link {
   width: 100%;
   height: 100%;
   align-items: center;
@@ -605,13 +605,12 @@ img {
   border: 1px solid var(--svg-first-color);
 }
 
-.client-item-link:hover,
-.client-item-link:focus {
+.client__item-link:hover, .client__item-link:focus {
   border-color: var(--svg-hover-color2);
   color: var(--svg-hover-color2);
 }
 
-.clients-icon {
+.clients__icon {
   fill: currentColor;
 }
 
