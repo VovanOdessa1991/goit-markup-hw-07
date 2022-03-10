@@ -441,7 +441,7 @@ img {
   padding-bottom: var(--margin-padding-witch-block);
 }
 
-.examples-title {
+.examples__title {
   color: var(--second-text-color);
   font-size: 36px;
   font-weight: 700;
@@ -451,21 +451,21 @@ img {
   margin-bottom: var(--margin-title-bottom);
 }
 
-.examples-images {
+.examples__images {
   list-style: none;
 }
 
-.example-overlay-container {
+.example__container {
   position: relative;
   width: 370px;
   height: 294px;
 }
 
-.examples-image {
+.examples__image {
   width: var(--width-card-thick);
 }
 
-.example-overlay-conteiner-text {
+.example__conteiner-text {
   position: absolute;
   width: 100%;
   height: 70px;
@@ -476,7 +476,7 @@ img {
   justify-content: center;
 }
 
-.example-overlay-text {
+.example__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
