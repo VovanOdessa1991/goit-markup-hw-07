@@ -1,0 +1,41 @@
+.clients {
+  padding: 94px 0;
+}
+
+.clients-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--second-text-color);
+  margin-bottom: 50px;
+}
+.clients-list {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+}
+.client-item-link {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: var(--svg-first-color);
+  border-radius: 4px;
+  border: 1px solid var(--svg-first-color);
+}
+.client-item-link:hover,
+.client-item-link:focus {
+  border-color: var(--svg-hover-color2);
+  color: var(--svg-hover-color2);
+}
+
+.clients-icon {
+  fill: currentColor;
+}
