@@ -2,25 +2,26 @@
   padding-top: var(--margin-padding-witch-block);
   padding-bottom: var(--margin-padding-witch-block);
 }
-.doing-list {
+.doing__list {
   list-style: none;
 }
-.doing-item {
+.doing__item {
   display: inline-block;
+  & + & {
+    margin-left: 30px;
+  }
 }
-.doing-item + .doing-item {
-  margin-left: 30px;
-}
-.doing-icon-container {
+
+.doing__icon-container {
   width: auto;
   height: 120px;
   align-items: center;
   justify-content: center;
   background-color: var(--background-second-color);
 }
-.doing-icon {
+.doing__icon {
 }
-.doing-item-title {
+.doing__item-title {
   padding-top: 30px;
   color: var(--second-text-color);
   font-size: 14px;
@@ -30,7 +31,7 @@
   width: var(--width-card-thin);
   margin-bottom: 10px;
 }
-.doing-item-text {
+.doing__item-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

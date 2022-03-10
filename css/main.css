@@ -399,19 +399,19 @@ img {
   padding-bottom: var(--margin-padding-witch-block);
 }
 
-.doing-list {
+.doing__list {
   list-style: none;
 }
 
-.doing-item {
+.doing__item {
   display: inline-block;
 }
 
-.doing-item + .doing-item {
+.doing__item + .doing__item {
   margin-left: 30px;
 }
 
-.doing-icon-container {
+.doing__icon-container {
   width: auto;
   height: 120px;
   align-items: center;
@@ -419,7 +419,7 @@ img {
   background-color: var(--background-second-color);
 }
 
-.doing-item-title {
+.doing__item-title {
   padding-top: 30px;
   color: var(--second-text-color);
   font-size: 14px;
@@ -430,7 +430,7 @@ img {
   margin-bottom: 10px;
 }
 
-.doing-item-text {
+.doing__item-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
